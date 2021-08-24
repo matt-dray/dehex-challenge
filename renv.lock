@@ -58,6 +58,18 @@
       "Repository": "CRAN",
       "Hash": "e75525c55c70e5f4f78c9960a4b402e9"
     },
+    "dehex": {
+      "Package": "dehex",
+      "Version": "0.1.1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "dehex",
+      "RemoteUsername": "matt-dray",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "186a68ee07a053b8cd0c664e4955b3dd65a2b588",
+      "Hash": "043ecd88f1f63126ef4f9f6a4d53ddb4"
+    },
     "digest": {
       "Package": "digest",
       "Version": "0.6.27",
@@ -155,6 +167,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "4ab2c43adb4d4699cf3690acd378d75d"
+    },
+    "purrr": {
+      "Package": "purrr",
+      "Version": "0.3.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "97def703420c8ab10d8f0e6c72101e02"
     },
     "rappdirs": {
       "Package": "rappdirs",
