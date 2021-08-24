@@ -45,6 +45,33 @@ server <- function(input, output) {
     )
   })
 
+  output$hex_graph_h <- renderPrint({
+    dehex::dh_graph(
+      dehex::dh_shorten(v$hex_random),
+      adorn_s = FALSE,
+      adorn_l = FALSE,
+      crayon = FALSE
+    )
+  })
+
+  output$hex_graph_s <- renderPrint({
+    dehex::dh_graph(
+      dehex::dh_shorten(v$hex_random),
+      adorn_h = FALSE,
+      adorn_l = FALSE,
+      crayon = FALSE
+    )
+  })
+
+  output$hex_graph_l <- renderPrint({
+    dehex::dh_graph(
+      dehex::dh_shorten(v$hex_random),
+      adorn_h = FALSE,
+      adorn_s = FALSE,
+      crayon = FALSE
+    )
+  })
+
   output$hex_graph <- renderPrint({
     dehex::dh_graph(
       dehex::dh_shorten(v$hex_random),
