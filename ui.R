@@ -31,7 +31,7 @@ ui <- fluidPage(
 
             p("Generate a random code then follow the steps in the tabs",),
             p(actionButton("action", label = "Generate")),
-            tags$span(textOutput("hex_long"), style = "font-size:50px;"),
+            tags$span(textOutput("hex_long"), style = "font-size:50px;")
 
             # # dehex logo ----
             # p(),

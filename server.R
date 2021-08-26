@@ -17,7 +17,7 @@ server <- function(input, output) {
     v$hex_random
   })
 
-error_message <- "Click 'generate' button"
+  error_message <- "Click 'generate' button"
 
   output$hex_short <- renderText({
     validate(need(v$hex_random, error_message))
@@ -45,13 +45,13 @@ error_message <- "Click 'generate' button"
 
   output$hex_graph_simple <- renderPrint({
     validate(need(v$hex_random, error_message))
-    dehex::dh_graph(
-      dehex::dh_shorten(v$hex_random),
-      adorn_h = FALSE,
-      adorn_s = FALSE,
-      adorn_l = FALSE,
-      crayon = FALSE
-    )
+      dehex::dh_graph(
+        dehex::dh_shorten(v$hex_random),
+        adorn_h = FALSE,
+        adorn_s = FALSE,
+        adorn_l = FALSE,
+        crayon = FALSE
+      )
   })
 
   output$hex_graph_h <- renderPrint({

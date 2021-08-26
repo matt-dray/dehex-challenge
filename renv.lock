@@ -81,8 +81,8 @@
       "RemoteRepo": "dehex",
       "RemoteUsername": "matt-dray",
       "RemoteRef": "HEAD",
-      "RemoteSha": "186a68ee07a053b8cd0c664e4955b3dd65a2b588",
-      "Hash": "043ecd88f1f63126ef4f9f6a4d53ddb4"
+      "RemoteSha": "45d36f8485b649661cb7b03a84aef5ebd206e5f7",
+      "Hash": "123807edc40b1cd5ab92029d1b506ac7"
     },
     "digest": {
       "Package": "digest",
